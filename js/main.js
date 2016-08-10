@@ -14,3 +14,13 @@ var x = myFunction(4, 3);        // Function is called, return value will end up
 function myFunction(a, b) {
      alert(a * b);                // Function returns the product of a and b
 }
+var x = prompt("What is your first numer");
+var y = prompt("what is your second number");
+alert(x * y); //asked for users number then made a calculator
+
+var a = prompt("What is your first number for division");
+var b = prompt("What is your second number for division");
+alert(a/b);  //made a division calculator
+
+var c = prompt("How are you doing")
+alert("good")
